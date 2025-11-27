@@ -1,0 +1,19 @@
+{
+  "timestamp_extraction": "2025-11-27, 14:47:00 WIB",
+  "data_source_logic": "Integrasi Data IoT Kargo Global + UmbraQuant Arbitrase",
+  "anomaly_signal_type": "Commodity-Logistics Causal Gap (CPO)",
+  "verifiable_datapoints": {
+    "CPO_MYX_Feb26_Price": {
+      "value": "4078.00",
+      "unit": "MYR/MT",
+      "change": "+1.34%",
+      "significance": "Pressure Kargo Global (Sinyal Buy-side)"
+    },
+    "Chainlink_Implied_Demand": {
+      "asset_ticker": "LINK",
+      "utility_correlation": "94.7%",
+      "causal_prediction": "Strong Entry Point Pending RRA Alert"
+    },
+    "Umbra_Note": "Data Mentah Kargo Global dan Komoditas. Digunakan untuk Arbitrase Likuiditas $10 USD. Publikasi ini adalah *snapshot* kausal."
+  }
+}
